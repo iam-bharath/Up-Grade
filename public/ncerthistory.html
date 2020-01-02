@@ -1,0 +1,234 @@
+<?php include('layouts/header.php'); ?>
+
+<?php if (!$session->is_logged_in()) { redirect_to("login.php"); } ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Ncert History(VII-XII)</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style type="text/css">
+    .bs-example{
+        margin: 20px;
+        
+    }
+    button {
+    background-color: transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+    
+</style>
+</head>
+<body>
+<div class="bs-example">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="#" class="navbar-brand">
+            <img src="emblem-gold.png" height="35" alt="Public Service">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="../home.html" class="nav-item nav-link active"><b>Home</b></a>
+                <a href="#" class="nav-item nav-link"><b>Editorials</b></a>
+                <div class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"><b>Exams</b></a>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item"><b>Upsc CSE</b></a>
+                    <a href="#" class="dropdown-item"><b>CDS</b></a>
+                    <a href="#" class="dropdown-item"><b>SSC CGL</b></a>
+                    <a href="#" class="dropdown-item"><b>CAPF</b></a>
+                </div>
+            </div>
+            <a href="../e-lib.html" class="nav-item nav-link"><b>E-Library</b></a>
+
+            </div>
+            <div class="navbar-nav ml-auto">
+               <button onclick="#"><b>Login</b></button>
+            </div>
+        </div>
+    </nav>
+</div>
+    
+    <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+    
+    
+    
+    <div class="main">
+
+    <h1><b>Welcome to E-Library!</b></h1>
+<hr>
+<p><i>Ncert Books(6th-10th)</i></p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+        <img src="ncerthist6th.jpg" alt="Lights" style="width:100%">
+        <h4><b>Ncert History Vi</b></h4>
+        <p><b>Click to view and</b><a href="https://drive.google.com/file/d/1mB47auSbNe6kmaejnCUqu9jtC8YCOFpV/preview
+">Download</a>.</p>
+      </div>
+  </div>
+    
+    
+    
+  <div class="column">
+    <div class="content">
+    <img src="ncerthist7th.jpg" alt="Lights" style="width:100%">
+      <h4><b>Ncert History Vii</b></h4>
+        <p><b>Click to view and</b> <a href="https://drive.google.com/file/d/19X71hin33ImArrVa_lpbHbaGlHDROYFW/preview
+">Download</a>.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="ncert%208th.jpg" alt="Nature" style="width:100%">
+        <h4><b>Ncert History Viii</b></h4>
+      <p><b>Click to view and</b><a href="https://drive.google.com/file/d/1DZ20FpW8YgOr938ElgbMvip_FdzHYndZ/preview
+">example</a>.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="ncerthis8th.jpg" alt="Mountains" style="width:100%">
+        <h4><b>Ncert History iX</b></h4>
+       <p><b>Click to view and</b><a href="https://drive.google.com/file/d/1dQAVdYzZGj54XIjnenvKT4mG_ctzPExJ/preview
+">example</a>.</p>
+    </div>
+  </div>
+    
+    
+    <div class="column">
+    <div class="content">
+    <img src="ncerthis10th.jpg" alt="Mountains" style="width:100%">
+      <h4><b>Ncert History X</b></h4>
+<p><b>Click to view and</b><a href="https://drive.google.com/file/d/11zX6iAVpzsVnxAat_oUZxLoD2qNMNE2a/preview
+">download</a>.</p>
+        </div>
+  </div>
+    
+    
+    <div class="column">
+    <div class="content">
+    <img src="ncert11th.jpg" alt="Mountains" style="width:100%">
+      <h4><b>Ncert History Xi</b></h4>
+    <p><b>Click to view and</b><a href="https://drive.google.com/file/d/1mDG6J7bzk3ILtuj75U0jFB7RHvqm-WtY/preview
+">download</a>.</p>
+    </div>
+  </div>
+    
+    <div class="column">
+    <div class="content">
+    <img src="ncerthis12thp1.jpg" alt="Mountains" style="width:100%">
+      <h4><b>Ncert History Xii</b></h4>
+      <p><b>Click to view and</b><a href="https://drive.google.com/file/d/1b5B5Px2D6s4Ppcxq78377Oqy6cxYOG7N/preview
+">download</a>.</p>
+    </div>
+  </div>
+    
+     <div class="column">
+    <div class="content">
+    <img src="ncerthis12thp2.jpg" alt="Mountains" style="width:100%">
+      <h4><b>Ncert History Xii(2)</b></h4>
+      <p><b>Click to view and</b><a href="https://drive.google.com/file/d/1OrTo0kR4ZtwCJdfaEtRIjgHYEs-b1d4Y/preview
+">download</a>.</p>
+    </div>
+  </div>
+    
+     <div class="column">
+    <div class="content">
+    <img src="ncerthis12thp3.jpg" alt="Mountains" style="width:100%">
+      <h4><b>Ncert History Xii</b></h4>
+      <p><b>Click to view and</b><a href="https://drive.google.com/file/d/1IyfxkzJ5UBFzpGInD1uiAfET6lGJjDng/preview
+">download</a>.</p>
+    </div>
+  </div>
+    
+        </div>
+        
+        <div class="content">
+ <iframe width="987" height="500" src="https://www.youtube.com/embed/nchqJu5T3h0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <h2><b>Reference Video</b></h2>
+  <p><i>The above is the reference to the ncert history!</i></p>
+ 
+</div>
+    </div>
+    
+<body>
+</html>

@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Login page</title>
+    </head>
+    <body><center>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      
+        
+         <div style="height:250px;background-color:#ddd">
+    <header class="bg-primary py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2"><b>HalfWay Down!</b></h1>
+          <p class="lead mb-5 text-white "><b>To choose what others don't dream is a half victory! Cheers your already there!</b></p>
+        </div>
+      </div>
+    </div>
+  </header>
+    </div>
+    
+        
+         <script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.userid.value == "admin" && form.pswrd.value == "admin") {
+                    window.open('home2.php')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+        
+        <!-- Default form login -->
+         <div class="container" style="  background: #AED6F1  ;">
+    <div class="jumbotron">
+<form class="text-center border border-light p-5" action="#!"  name="login">
+
+    <p class="h4 mb-4">Sign in</p>
+
+    <!-- Email -->
+    <input type="text" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail" name="userid"/>
+
+    <!-- Password -->
+    <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Password" name="pswrd">
+    
+    <div class="d-flex justify-content-around">
+        <div>
+            <!-- Remember me -->
+           
+        </div>
+        
+    </div>
+
+    <!-- Sign in button -->
+
+<input type="button" class="btn btn-primary" onclick="check(this.form)"  value="Login"/>
+    <!-- Register -->
+    
+
+    <!-- Social login -->
+   
+
+</form>
+<!-- Default form login -->
+             </div></div>   
+        
+        
+        
+      
+    </center>
+    </body>
+</html>
